@@ -1,0 +1,11 @@
+{
+"projectId": "mxxwps",
+  "video": false,
+  "env": {
+    "baseUrl": "http://automationpractice.com/"
+  },
+
+  "ignoreTestFiles": "*.js",
+  "testFiles": "**/*.{feature,features}"
+
+}

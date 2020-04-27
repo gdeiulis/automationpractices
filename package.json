@@ -1,0 +1,18 @@
+{
+  "name": "automation-practice-cypress-cucumber",
+  "version": "1.0.0",
+  "description": "Automation Practice",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    "test": "cypress run --spec \"**/*.features\"",
+    "test:chrome": "cypress run --spec \"**/*.features\" --browser chrome"
+  },
+  "dependencies": {
+    "cypress": "^3.4.1",
+    "cypress-cucumber-preprocessor": "^1.16.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}
